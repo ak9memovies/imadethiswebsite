@@ -2157,6 +2157,12 @@
             "https://adorable-maamoul-adc018.netlify.app/other/webretro/assets/icons/icon204.png",
             "/other/webretro/index.html",
             "WebRetro is an everything emulator for your browser"
+          ],
+          [
+            "MonkeyMan",
+            "",
+            "/monkeyman/index.html",
+            "Monkey Man Proxy!"
           ]
         ]
       }
