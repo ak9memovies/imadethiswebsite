@@ -133,7 +133,6 @@ function createGames(data) {
             window.open(iframe.src, '_blank');
           });
         } else {
-          // The URL is not valid, so display an error message
           alert("Invalid URL: " + url);
         }
       });
