@@ -13,7 +13,7 @@ function createGames(data) {
 
     for (const game of gamesList.games) {
       const link = document.createElement("a");
-      const cdnUrl = localStorage.getItem("cdnUrl") || "https://raw.githack.com/lioxryt/lioxryt-assets/main";
+      const cdnUrl = localStorage.getItem("cdnUrl") || "https://adorable-maamoul-adc018.netlify.app";
       link.href = cdnUrl + game[2];
       link.className = "game-link container";
 
@@ -46,7 +46,6 @@ function createGames(data) {
         const url = link.href;
 
         if (url.startsWith("http://") || url.startsWith("https://")) {
-          // Check if there is an existing iframe and remove it along with the overlay
           const existingIframe = document.querySelector("iframe");
 
           // Create the new iframe and container div
