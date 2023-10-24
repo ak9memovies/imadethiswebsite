@@ -71,20 +71,8 @@ if (tabData.icon) {
 }
 
 const dropdown = document.getElementById("drop");
-    
-      // add event listener to the dropdown
-      dropdown.addEventListener("change", function() {
-        const selectedValue = this.value;
-        localStorage.setItem("selectedCDN", selectedValue);
-      });
-    
-      // load previously selected value from local storage
-      const selectedValue = localStorage.getItem("selectedCDN");
-      if (selectedValue) {
-        dropdown.value = selectedValue;
-      }
-      const buttons = document.querySelectorAll(".theme-button");
-      const storageKey = "selectedTheme";
+const buttons = document.querySelectorAll(".theme-button");
+const storageKey = "selectedTheme";
 
 // Load the previously selected theme from local storage, if it exists
 let selectedTheme = localStorage.getItem(storageKey);
